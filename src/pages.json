@@ -1,0 +1,89 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/welcome/index",
+      "style": {
+        "navigationBarTitleText": "欢迎来到",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false,
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/navigation/home/index",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/navigation/my/index",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "消息",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/navigation/message/index",
+      "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "我的",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        {
+          "path": "webview/index",
+          "style": {
+            "navigationBarTitleText": "第三方页面"
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7d7e80",
+    "selectedColor": "#1989fa",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/navigation/home/index",
+        "text": "主页"
+      },
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/navigation/message/index",
+        "text": "消息"
+      },
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/navigation/my/index",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+/*单行省略*/
+.l-text-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+/*2行省略*/
+.l-text-hidden2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+}
+
+/*弹性布局*/
+.l-flex {
+  display: flex;
+}
+
+.l-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-flex-center-a {
+  display: flex;
+  align-items: center;
+}
+.l-flex-center-aj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l-flex-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
