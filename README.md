@@ -1,3 +1,5 @@
+基于uniapp vue2 版本开发的底座 ,开箱即用
+
 # my-uni-project
 
 ## Project setup
